@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "727275138816",
+    "firebase_url": "https://chat-b1d87.firebaseio.com",
+    "project_id": "chat-b1d87",
+    "storage_bucket": "chat-b1d87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727275138816:android:397e7a4111fa8ecc",
+        "android_client_info": {
+          "package_name": "com.brefft.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727275138816-d24hvk67p94s0bhb1d87tsrlhu68oitj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jubriloyesiji.androidchatapp",
+            "certificate_hash": "faf141123615e010e52d9113a3e720d9074260ab"
+          }
+        },
+        {
+          "client_id": "727275138816-024h1iodjbmlqkfq0debl2774sp2fbij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLiHXSl7cHcXfxbrq7bSN9vG2SJ9mXng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727275138816-b2j2v7shlpa29q1oqhh4ecl1cevaqicc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.learn2develop.Chat"
+              }
+            },
+            {
+              "client_id": "727275138816-024h1iodjbmlqkfq0debl2774sp2fbij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
