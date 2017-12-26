@@ -1,7 +1,9 @@
 package com.brefft.chat;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.brefft.entity.Chat;
 import com.google.firebase.database.DatabaseReference;
@@ -23,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
         myRef.push().setValue(chat);
         //myRef.child(chat.getSender_id()).setValue(chat);
        // myRef.ch
+    }
+
+    public void navigateToDetail(View view){
+        Intent intent = new Intent(this, SendMessageActivity.class);
+
+        startActivity(intent);
     }
 }
